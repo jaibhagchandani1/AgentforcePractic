@@ -1,0 +1,5 @@
+{
+    "title": "caseResponse",
+    "description": "caseResponse",
+    "lightning:type": "@apexClassType/c__CaseListTable$caseWrapper"
+  }

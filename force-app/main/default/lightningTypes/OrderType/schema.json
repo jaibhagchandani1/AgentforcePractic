@@ -1,0 +1,5 @@
+{
+  "title": "Find Orders",
+  "description": "Find Orders",
+  "lightning:type": "@apexClassType/c__agentforceOrderSearch$Response"
+}
