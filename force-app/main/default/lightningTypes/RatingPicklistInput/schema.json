@@ -1,0 +1,5 @@
+{
+  "title": "Rating Picklist Input",
+  "description": "Rating Picklist Input",
+  "lightning:type": "@apexClassType/c__BookRetrievalController$BookFilter"
+}
