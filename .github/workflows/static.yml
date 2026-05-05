@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google</title>
+  <style>
+    body {
+      background: #fff;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .google-logo {
+      margin-top: 15vh;
+      font-size: 64px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      user-select: none;
+    }
+    .google-logo span:nth-child(1) { color: #4285f4; }
+    .google-logo span:nth-child(2) { color: #ea4335; }
+    .google-logo span:nth-child(3) { color: #fbbc05; }
+    .google-logo span:nth-child(4) { color: #4285f4; }
+    .google-logo span:nth-child(5) { color: #34a853; }
+    .google-logo span:nth-child(6) { color: #ea4335; }
+    .search-container {
+      margin: 40px auto 0 auto;
+      width: 100%;
+      max-width: 560px;
+    }
+    .search-bar {
+      width: 80%;
+      max-width: 500px;
+      padding: 16px 18px;
+      border: 1px solid #dfe1e5;
+      border-radius: 24px;
+      font-size: 18px;
+      outline: none;
+      box-sizing: border-box;
+      margin-bottom: 24px;
+    }
+    .button-group {
+      margin-top: 8px;
+    }
+    .button-group button {
+      height: 36px;
+      background-color: #f8f9fa;
+      border: 1px solid #f8f9fa;
+      border-radius: 4px;
+      color: #3c4043;
+      font-size: 14px;
+      margin: 0 4px;
+      padding: 0 16px;
+      cursor: pointer;
+      transition: border 0.2s;
+    }
+    .button-group button:hover {
+      border: 1px solid #dadce0;
+    }
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #f2f2f2;
+      padding: 14px 0;
+      color: #5f6368;
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    .footer a {
+      color: #5f6368;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    @media (max-width: 600px) {
+      .search-container {
+        width: 95%;
+      }
+      .google-logo {
+        font-size: 40px;
+      }
+      .search-bar {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="google-logo">
+    <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+  </div>
+  <div class="search-container">
+    <input type="text" class="search-bar" placeholder="Search Google or type a URL">
+    <div class="button-group">
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+  </div>
+  <div class="footer">
+    <a href="#">Advertising</a>
+    <a href="#">Business</a>
+    <a href="#">About</a>
+    <a href="#">How Search works</a>
+  </div>
+</body>
+</html>
